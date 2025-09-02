@@ -13,13 +13,14 @@ import difflib
 import time
 import inspect
 import sys
+from importlib import resources
+from pathlib import Path
 
 class GeminiRetryableError(Exception):
     """Custom exception for retryable Gemini API errors."""
     pass
 
 
-os.environ["GOOGLE_API_KEY"] = ""
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY")) # Configure the client globally
 
 gemini_client = genai.GenerativeModel("gemini-1.5-pro") # Renamed from 'client' to avoid conflict with `client` in the main script for NER
@@ -348,7 +349,7 @@ def get_nouns(text):
                 unique_nouns.append(lemma)
     return unique_nouns
 
-def get_random_entity(json_path: str, language_code: str, entity_type: str):
+def get_random_entity(json_path: Path, language_code: str, entity_type: str):
     app_log(f"get_random_entity {json_path,language_code,entity_type}")
     # Normalize entity_type input to lower-case and standard keys
     entity_type = entity_type.lower()
@@ -373,7 +374,7 @@ def get_random_entity(json_path: str, language_code: str, entity_type: str):
 
     return random.choice(entities)
 
-def generate_replacement_dict(entity_dict: dict, language_code: str, selected_entity: list[str] = [], json_path: str = "entities.json"):
+def generate_replacement_dict(entity_dict: dict, language_code: str, selected_entity: list[str] = [], json_path: Path = Path("entities.json")):
     replacement_dict = {}
     app_log(f"entity_dict-->  {entity_dict} - {selected_entity}", level="DEBUG")
 
@@ -520,8 +521,12 @@ def extract_ner_entities(text: str, model_name: str = " "):
     return ner_pipeline(text)
 
 
-def add_modified_native(example: dict, languages: list[str] = LANGUAGES, verbose: bool = False) -> dict:
+def add_modified_native(example: dict, languages: list[str] = LANGUAGES, verbose: bool = False, entities_json_path: Path = None) -> dict:
     app_log(f"Processing example. Available languages for this entry: {list(example.keys())}")
+
+    if entities_json_path is None:
+        # Default to using the resource from the package
+        entities_json_path = resources.files('auto_localizer') / 'entities.json'
 
     processed_any_language = False
     for lang_code in languages:
@@ -565,7 +570,7 @@ def add_modified_native(example: dict, languages: list[str] = LANGUAGES, verbose
             selected_entity_types = ["person_names", "currency_symbol_and_name","organization_name"] # Customize as needed
             app_log(f"Selected entity types for replacement: {selected_entity_types}")
 
-            replacements = generate_replacement_dict(classified_entities, lang_code, selected_entity=selected_entity_types, json_path="entities.json") # Ensure json_path is passed if not default
+            replacements = generate_replacement_dict(classified_entities, lang_code, selected_entity=selected_entity_types, json_path=entities_json_path) # Ensure json_path is passed if not default
             app_log(f"Generated replacement dictionary: {json.dumps(replacements, ensure_ascii=False)}")
 
 
@@ -709,6 +714,9 @@ if __name__ == "__main__":
     else:
         app_log("Starting script...")
 
+        # Resolve the path to entities.json within the package
+        entities_file_path = resources.files('auto_localizer') / 'entities.json'
+
         # --- Checkpointing Logic ---
         processed_examples = []
         start_index = 0
@@ -750,7 +758,7 @@ if __name__ == "__main__":
                     example = dataset_slice[i]
                     app_log(f"--- Processing example {i+1}/{len(dataset_slice)} ---")
                     
-                    processed_example = add_modified_native(example, languages=LANGUAGES, verbose=args.verbose)
+                    processed_example = add_modified_native(example, languages=LANGUAGES, verbose=args.verbose, entities_json_path=entities_file_path)
                     processed_examples.append(processed_example)
                     
                     with open(args.checkpoint_file, "w", encoding="utf-8") as f:
