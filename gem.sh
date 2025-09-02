@@ -2,7 +2,7 @@
 
 # --- Script Configuration ---
 # Name of your Python localization script
-PYTHON_SCRIPT_NAME="gem.py" 
+PYTHON_SCRIPT_NAME="localize.py" 
 
 # --- Help Function ---
 usage() {
