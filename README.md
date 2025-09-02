@@ -1,6 +1,8 @@
 # Auto-Localizer
 
-`Auto-Localizer` is a Python library designed to automate the localization of text by identifying and replacing specific entities (like person names, currency symbols, and organization names) in English sentences and then applying the corresponding changes to their native language translations.
+`Auto-Localizer` is a Python library designed to automate the localization of text by identifying and replacing specific entities (like person names, currency symbols, and organization names) in English sentences and then applying the corresponding changes to their native language translations. 
+
+paper - [Bridging the Culture Gap: A Framework for LLM-Driven Socio-Cultural Localization of Math Word Problems in Low-Resource Languages](https://www.arxiv.org/abs/2508.14913)
 
 ## Features
 
