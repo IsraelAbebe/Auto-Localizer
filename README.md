@@ -90,6 +90,3 @@ The core dependencies are listed in `setup.py` and will be installed automatical
 
 Contributions are welcome! Please feel free to submit pull requests or open issues on the GitHub repository.
 
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
