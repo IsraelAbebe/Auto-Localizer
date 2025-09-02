@@ -1,0 +1,377 @@
+{
+  "eng": {
+    "person_names": [
+      "Ainsley", "Arden","Dakota","Finley","Hayden","Lennox","Lindsey","Robin","Rowan","Sloan"
+    ],
+    "organization_name": [
+      "Microsoft", "Harvard University", "Google", "Apple", "Amazon", "Facebook", "NASA"
+    ],
+    "currency_symbol_and_name": [
+      "dollar"
+    ]
+  },
+  "fra": {
+    "person_names": ["Jules","Manel","Clement","Andrea","Yanis","Dominique","Noa","Morgan","Claude","Camille"],
+    "organization_name": [ "TotalEnergies", "Électricité de France (EDF)", "BNP Paribas", "Société Générale", "Crédit Agricole"],
+    "currency_symbol_and_name": ["euro"]
+  },
+  "hau": {
+    "person_names": [
+      "Mandiya", "Audi", "Auta", "Talle", "Mairiga", "Ƴanbiyu", "Gambo", "Kaka",
+      "Kyauta", "Yalwa", "Shanono", "Aishatu", "Alhaji", "Alheri"    ],
+    "organization_name": [
+      "Arewa24",
+      "Ahmadu Bello University",
+      "Kano State Government",
+      "Arewa House",
+      "Freedom Radio Nigeria",
+      "Hausa Language Board",
+      "Daily Trust",
+      "Kano State Radio",
+      "Gidan Rediyo Dala",
+      "Kaduna Polytechnic"
+    ],
+    "currency_symbol_and_name": [
+      "naira"
+    ]
+  },
+  "kin": {
+    "person_names": [
+            "Ahishakiye", "Uwimana", "Nkunda", "Byamukama", "Hakizimana", "Nsengimana", "Uwamahoro", "Habimana", "Niyonzima", "Twizerimana" ],
+    "organization_name": [
+          "Sokoto Sultanate Council",
+          "Hausa Language Board",
+          "Kaduna State Government",
+          "Kano State Government",
+          "Kano Emirate Council",
+          "Fellowship Church Winning All (ECWA)",
+          "Arewa Institute",
+          "Northern Power Initiative",
+          "Hausa Broadcasting Service",
+          "Kaduna Internet Group"],
+    "currency_symbol_and_name": ["naira"]
+  },
+  "lin": {
+    "person_names": [
+          "Angola", "Angolo", "Kimpa", "Longi", "Luzolo", "Manzambi", "Masa", "Matondo", "Mawete", "Maza"],
+    "organization_name": [
+            "Université Protestante au Congo",
+            "Université Catholique du Congo",
+            "Ministère de la Santé Publique",
+            "Assemblée Nationale de la RDC",
+            "Société Nationale d'Électricité (SNEL)",
+            "Office Congolais de Contrôle (OCC)",
+            "Fondation Denis Mukwege",
+            "Médecins Sans Frontières RDC",                            
+            "Ministère de l’Enseignement Primaire, Secondaire et Technique (EPST)"],
+    "currency_symbol_and_name": ["franc congolais"]
+  },
+  "ibo": {
+    "person_names": [
+          "Chinedu", "Ngozi", "Ifeanyi", "Amaka", "Obinna", "Adaeze", "Uche", "Chioma", "Emeka", "Nkechi"
+    ],
+    "organization_name": [
+              "Nnamdi Azikiwe University",
+              "Anambra Broadcasting Service (ABS)",
+              "Anambra State Government",
+              "Chukwuemeka Odumegwu Ojukwu University",
+              "Nigerian Breweries Plc (Onitsha)",
+              "South East Governors Forum",
+              "Innoson Vehicle Manufacturing",
+              "Anambra State Investment Promotion Agency",
+              "Nnewi Chamber of Commerce",
+              "Ebonyi State University",
+              "Enugu State University of Science and Technology",
+              "Eastern Nigeria Industrial Park",
+              "Awka Capital Territory Development Authority",
+              "Odenigbo Cultural Foundation",
+              "Anambra State Football Association",
+              "The Sun Publishing Ltd (Sun Newspaper)"
+    ],
+    "currency_symbol_and_name": [
+      "naira"
+    ]
+  },
+  "swa": {
+    "person_names": [
+      "Camari", "Zori", "Neyah", "Julani", "Riziki", "Ajira", "Jelani","Wendo","Amini","Mosi","Nuru"
+    ],
+    "organization_name": [
+      "Safaricom",
+      "Tanzania Revenue Authority (TRA)",
+      "University of Dar es Salaam",
+      "Tanzania Ports Authority",
+      "National Bank of Commerce (NBC)",
+      "Vodacom",
+      "Tanzania Electric Supply Company (TANESCO)",
+      "Kenya Commercial Bank (KCB)",
+      "Mwananchi Communications",
+      "Tanzania Education Authority",
+      "East African Community (EAC)",
+      "Tanzania Commission for Universities (TCU)",
+      "Bank of Tanzania",
+      "National Bureau of Statistics (NBS)"
+    ],
+    "currency_symbol_and_name": [
+      "shilingi"
+    ]
+  },
+  "yor": {
+    "person_names": [
+      "Olawuseun","Tobiloba","Pelumi","Oreoluwa","Ayoade","Oreoluwa","Alábẹdé","Abímbọ́lá","Afọlábí","Tiwátọ́pẹ́","Tolúlọpẹ́","Yínká","Rẹ̀mílẹkún","Ọdúnọlá"
+    ],
+    "organization_name": [
+            "LTV (Lagos Television)",
+            "AIT (Africa Independent Television)",
+            "Nigerian Tribune",
+            "NTA Ibadan",
+            "Oyo State Government",
+            "TV Continental (TVC)",
+            "Yoruba World Congress",
+            "Oduduwa Foundation",
+            "Voice of Nigeria",
+            "Federal University of Agriculture Abeokuta",
+            "Lagos Business School",
+            "Nigeria Union of Teachers "
+    ],
+    "currency_symbol_and_name": [
+      "naira"
+    ]
+  },
+  "zul": {
+    "person_names": [
+      "Sipho", "Zanele", "Thabo", "Nomvula", "Sibusiso", "Nokuthula", "Bongani", "Thandeka", "Mandla"
+    ],
+    "organization_name": [
+      "SABC",
+      "Eskom",
+      "eThekwini Municipality",
+      "University of KwaZulu-Natal",
+      "Mangosuthu University of Technology",
+      "INK (Inanda, Ntuzuma, KwaMashu) Development Forum",
+      "KwaZulu-Natal Provincial Government",
+      "IsiZulu News – Ukhozi FM",
+      "Zulu Royal Household",
+      "South African Police Service (KZN)",
+      "Department of Health KwaZulu-Natal",
+      "KwaZulu-Natal Sharks Board",
+      "Durban University of Technology",
+      "Zulu Cultural Heritage Foundation",
+      "National Lotteries Commission (KZN)"
+    ],
+    "currency_symbol_and_name": [
+      "irandi"
+    ]
+  },
+  "ewe": {
+    "person_names": [
+      "Adodo","Koku","Kofi", "Agbeli", "Mawuli", "Dzifa", "Komla", "Agbenyo", "Mawunyo", "Torgbui", "Esi", "Fafa"
+    ],
+    "organization_name": [
+      "Togo Bank",
+      "African Development Bank – Togo Branch",
+      "Togolese Renewable Energy Commission",
+      "Togo Maritime Authority",
+      "Togo Tourism Board",
+      "Togo Information Technology Authority",
+      "Togo Public Works Corporation",
+      "Lomé Technology Park",
+      "Togo Football Federation",
+      "Togo Stock Exchange",
+      "Togo National Library",
+      "Togo Central Bank"
+    ],
+    "currency_symbol_and_name": [
+      "CFA franc"
+    ]
+  },
+  "amh": {
+    "person_names": [
+      "ደስታ","አዲስ","በእምነት","ፋና","እንቁ","አሜን","በረከት","ፍጹም","ሃሌሉያ","የአብስራ","ደሴ"
+    ],
+    "organization_name": [       
+      "የትምህርት ሚኒስቴር",         
+      "ኢትዮጵያ ንግድ ባንክ",             
+      "አምባራስ ሆቴል",               
+      "ፖስታ ቤት",        
+      "ሲኒማ ኢትዮጵያ",              
+      "አዲስ አበባ ከተማ አመራር",           
+      "የኢትዮጵያ ቴክኖሎጂ ኢንስቲቲዩት",          
+      "ኢትዮፕያ አየር መንገድ",        
+      "ሂልተን ሆቴል",                
+      "የውጭ ጉዳይ ሚኒስቴር",                   
+      "የኤችአይቪ ኤድስ ማዕከል",      
+      "አምባሳደር ማእከል"               
+    ],
+    "currency_symbol_and_name": [
+      "ብር"
+    ]
+  },
+  "lug": {
+    "person_names": [
+      "Mukisa", "Waswa", "Nakato", "Mugisha", "Kato", "Babirye", "Amanya", "Apuuli", "Akiiki", "Asiimwe"
+    ],
+    "organization_name": [
+      "Bank of Uganda",
+      "NSSF Uganda",
+      "Uganda Revenue Authority (URA)",
+      "Makerere University",
+      "Ministry of Health Uganda",
+      "KCCA (Kampala Capital City Authority)",
+      "National Water and Sewerage Corporation (NWSC)",
+      "Uganda National Examinations Board (UNEB)",
+      "Uganda Airlines",
+      "Ministry of Education and Sports Uganda",
+      "Uganda Investment Authority",
+      "Uganda National Bureau of Standards",
+      "Stanbic Bank Uganda"
+    ],
+    "currency_symbol_and_name": [
+      "Ugandan shilling"
+    ]
+  },
+  "orm": {
+    "person_names": [
+      "Firaa'ol", "Sena", "Beekaa", "Hawwii", "Carraa", "Milkii", "Weedduu", "Sagalee", "Siifan", "Naafilet", "Kennaa", "Bilisummaa","Moonet"
+    ],
+    "organization_name": [
+      "Jimma University",
+      "Wollega University",
+      "Adama Science and Technology University",
+      "Oromia Education Bureau",
+      "Oromia Health Bureau",
+      "Finfinne Integrated Development Office",
+      "Oromia Agricultural Bureau",
+      "Oromia Forest and Wildlife Enterprise",
+      "Oromia Cooperative Bank",
+      "Oromia Construction Corporation",
+      "Oromia Land and Natural Resources Bureau",
+      "Oromia Urban Planning Institute",
+      "Oromia Roads Authority",
+      "Oromia Police Commission",
+      "Gadaa Research and Education Center",
+      "Oromo Studies Association",
+      "Finfinne Polytechnic College",
+      "Oromia Cultural Center"
+    ],
+    "currency_symbol_and_name": [
+      "birr"
+    ]
+  },
+  "sna": {
+    "person_names": [
+      "Tawanda", "Rutendo", "Tendai", "Nyasha", "Tatenda", "Rufaro", "Farai", "Simbarashe", "Kudzai", "Tariro"
+    ],
+    "organization_name": [
+      "Zimbabwe National Water Authority (ZINWA)",
+      "ZIMDEF (Zimbabwe Manpower Development Fund)",
+      "Zimbabwe United Passenger Company (ZUPCO)",
+      "Zimbabwe Electoral Commission (ZEC)",
+      "Zimbabwe Tourism Authority",
+      "Zimbabwe Schools Examination Council (ZIMSEC)",
+      "National University of Science and Technology (NUST)",
+      "Great Zimbabwe University",
+      "Bindura University of Science Education",
+      "Agricultural and Rural Development Authority (ARDA)",
+      "City of Harare",
+      "National Social Security Authority (NSSA)",
+      "Zimbabwe Red Cross Society"
+    ],
+    "currency_symbol_and_name": [
+      "Zimbabwean dollar"
+    ]
+  },
+  "sot": {
+    "person_names": [
+      "Thabo", "Mpho", "Palesa", "Tshepo", "Teboho", "Nthabiseng", "Lerato", "Kamohelo", "Refiloe", "Lebohang"
+    ],
+    "organization_name": [
+      "Lesotho National Development Corporation",
+      "Vodacom Lesotho",
+      "Lesotho Highlands Development Authority",
+      "Central Bank of Lesotho",
+      "Lesotho Electricity Company",
+      "Lesotho Revenue Authority",
+      "Lesotho PostBank",
+      "National University of Lesotho",
+      "Ministry of Health Lesotho",
+      "Lesotho Communications Authority",
+      "Lesotho Red Cross Society",
+      "Lesotho Mounted Police Service",
+      "Lesotho Defence Force",
+      "Lesotho Tourism Development Corporation",
+      "Maseru City Council",
+      "Lesotho College of Education",
+      "Lesotho National Insurance Group",
+      "Ministry of Finance Lesotho",
+      "Ministry of Education and Training Lesotho"
+    ],
+    "currency_symbol_and_name": [
+      "loti"
+    ]
+  },
+  "twi": {
+    "person_names": [
+      "Lahari","Dogbeda","Sika","Nasara","Dzifa","Tani"
+    ],
+    "organization_name": [
+      "Volta River Authority (VRA)",
+      "Ghana Tourism Authority",
+      "National Identification Authority (NIA)",
+      "Ghana Immigration Service",
+      "Ghana Police Service",
+      "Ghana National Fire Service",
+      "Ghana Standards Authority",
+      "Ghana Statistical Service",
+      "National Commission for Civic Education (NCCE)",
+      "Ghana Export Promotion Authority",
+      "Social Security and National Insurance Trust (SSNIT)",
+      "Ghana Red Cross Society",
+      "Ghana Investment Promotion Centre (GIPC)"
+    ],
+    "currency_symbol_and_name": [
+      "cedi"
+    ]
+  },
+  "wol": {
+    "person_names": [
+      "Ada", "Maguette", "Diouma", "Fatou", "Ibrahima", "Mariama", "Ousmane", "Adama"
+    ],
+    "organization_name": [
+      "Université Cheikh Anta Diop (UCAD)",
+      "Ministère de la Santé du Sénégal",
+      "Ministère de l'Éducation du Sénégal",
+      "CNRA (Conseil National de Régulation de l’Audiovisuel)",
+      "Banque de l’Habitat du Sénégal",
+      "Banque Centrale des États de l’Afrique de l’Ouest (BCEAO)",
+      "Ministère de l’Économie Numérique",
+      "Ministère de la Justice",
+      "Assemblée Nationale du Sénégal",
+      "CBAO Groupe Attijariwafa Bank",
+      "Orange Money Sénégal",
+      "APIX (Promotion des Investissements)"
+    ],
+    "currency_symbol_and_name": [
+      "CFA franc"
+    ]
+  },
+  "xho": {
+    "person_names": [
+      "Simdingile","Olwethu", "Phumzile", "Azola","Bathandwa","Aviwe","Anathi","Awonke","Bemanyiwe","Luchumo"
+    ],
+    "organization_name": [
+      "University of Fort Hare",
+      "Walter Sisulu University",
+      "Department of Education – Eastern Cape",
+      "Buffalo City Municipality",
+      "Eastern Cape Department of Health",
+      "Eastern Cape Rural Development Agency",
+      "Rhodes University",
+      "Chris Hani District Municipality",
+      "Office of the Premier – Eastern Cape"
+    ],
+    "currency_symbol_and_name": [
+      "rand"
+    ]
+  }
+}
