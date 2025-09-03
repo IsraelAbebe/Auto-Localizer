@@ -4,6 +4,8 @@
 
 paper - [Bridging the Culture Gap: A Framework for LLM-Driven Socio-Cultural Localization of Math Word Problems in Low-Resource Languages](https://www.arxiv.org/abs/2508.14913)
 
+[Dataset and models](https://huggingface.co/collections/israel/cultural-localilzation-687e392f6be2aaa0b7c7831c)
+
 ## Features
 
 - **Entity Recognition**: Identifies key entities in English text using a combination of spaCy and Gemini API.
